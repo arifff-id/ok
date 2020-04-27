@@ -44,7 +44,7 @@ echo "[==========================]"
 echo "[" "00.          Exit"                          
 echo "[==========================]"
 echo
-echo $me"[====Pilih sayang toolsnya=======]"
+echo "[====Pilih sayang toolsnya=======]"
 read -p "#-Sayang : " pil
 
 if [ $sayang = "1" ] :
