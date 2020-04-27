@@ -47,7 +47,7 @@ echo
 echo $me"[====Pilih sayang toolsnya=======]"
 read -p "#-Sayang : " pil
 
-elif [ $sayang = "1" ] :
+if [ $sayang = "1" ] :
 then
 echo "Insatalling Hack Fb"
 cd $HOME
@@ -60,7 +60,7 @@ python2 Brutefb.py
 wordlist.txt
 fi
 
-elif [ $sayang = "2" ]
+if [ $sayang = "2" ]
 echo "Installing Hack Spaam All"
 cd $HOME
 pkg install php
@@ -70,7 +70,7 @@ cd LITESPAM
 sh LITESPAM.sh
 fi
 
-elif [ $sayang = "3" ] :
+if [ $sayang = "3" ] :
 then
 echo "Installing Bruteforce Instagram"
 cd $HOME
@@ -85,7 +85,7 @@ cat pass.txt
 python hackinsta.py
 fi
 
-elif [ $sayang = "4" ] :
+if [ $sayang = "4" ] :
 then
 echo "Installing Phising Akun Gmail"
 cd $HOME 
@@ -100,7 +100,7 @@ cd wifiphisher
 python wifiphisher
 fi
 
-elif [ $sayang = "00" ] :
+if [ $sayang = "00" ] :
 then 
 echo "Terimah Kasih Sayang"
 sleep 1
